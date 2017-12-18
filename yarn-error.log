@@ -1,0 +1,67 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-awesome-swiper/ssr
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\nodejs\;F:\Git\cmd;C:\Program Files\MySQL\MySQL Utilities 1.6\;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MongoDB\Server\3.4\bin;C:\Program Files\SlikSvn\bin;C:\Program Files\TortoiseSVN\bin;C:\Users\Administrator\AppData\Roaming\npm;F:\Docker Toolbox;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\MongoDB\Server\3.4\bin;E:\Microsoft VS Code\bin
+
+Yarn version: 
+  0.23.4
+
+Node version: 
+  7.8.0
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "nuxt-project",
+    "version": "1.0.0",
+    "description": "Nuxt.js project",
+    "author": "zhibing <zhibing@example.com>",
+    "private": true,
+    "dependencies": {
+      "axios": "^0.16.1",
+      "mockjs": "^1.0.1-beta3",
+      "nuxt": "latest",
+      "vue-awesome-swiper": "^2.4.2"
+    },
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate",
+      "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+      "precommit": "npm run lint"
+    },
+    "devDependencies": {
+      "axios-mock-adapter": "^1.8.1",
+      "babel-eslint": "^7.1.1",
+      "eslint": "^3.15.0",
+      "eslint-config-standard": "^6.2.1",
+      "eslint-loader": "^1.6.1",
+      "eslint-plugin-html": "^2.0.0",
+      "eslint-plugin-promise": "^3.4.1",
+      "eslint-plugin-standard": "^2.0.1",
+      "less": "^2.7.2",
+      "less-loader": "^4.0.3",
+      "node-less": "^1.0.0",
+      "pug": "^2.0.0-beta6",
+      "pug-loader": "^2.3.0",
+      "style-loader": "^0.18.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Error connecting to repository. Please, check the url.
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\lib\resolvers\exotics\hosted-git-resolver.js:163:15
+      at Generator.next (<anonymous>)
+      at step (C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+      at C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+      at process._tickCallback (internal/process/next_tick.js:109:7)
